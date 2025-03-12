@@ -1,5 +1,5 @@
 [workspace]
-members = ["common", "strategies/*", "vault", "factory", "integration-test"]
+members = ["common", "strategies/*", "vault", "factory", "integration-test", "komet"]
 exclude = [
     "strategies/external_wasms",
 ]
@@ -23,7 +23,7 @@ common={ path="./common", package="common" }
 opt-level = "z"
 overflow-checks = true
 debug = 0
-strip = "symbols"
+# strip = "symbols"
 debug-assertions = false
 panic = "abort"
 codegen-units = 1

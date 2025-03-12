@@ -1,0 +1,16 @@
+[package]
+name = "komet-test"
+version = { workspace = true }
+license = { workspace = true }
+edition = { workspace = true }
+publish = false
+repository = { workspace = true }
+
+[lib]
+crate-type = ["cdylib"]
+ 
+[dependencies] 
+soroban-sdk = { workspace = true }
+
+[dev-dependencies]
+soroban-sdk = { workspace = true, features = ["testutils"] }

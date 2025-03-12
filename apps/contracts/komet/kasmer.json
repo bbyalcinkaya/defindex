@@ -1,0 +1,6 @@
+{
+    "contracts": [
+        "../target/wasm32-unknown-unknown/release/hodl_strategy.optimized.wasm",
+        "wasm/mock_sep_41_token.wasm"
+    ]
+}

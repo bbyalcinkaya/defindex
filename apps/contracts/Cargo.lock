@@ -799,6 +799,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "komet-test"
+version = "0.1.0"
+dependencies = [
+ "soroban-sdk",
+]
+
+[[package]]
 name = "libc"
 version = "0.2.169"
 source = "registry+https://github.com/rust-lang/crates.io-index"
